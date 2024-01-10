@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="5" failures="1" disabled="0" errors="0" timestamp="2024-01-10T11:17:21" time="0.001" name="AllTests">
+  <testsuite name="DividerTest" tests="5" failures="1" disabled="0" errors="0" time="0.001">
+    <testcase name="5_DivideBy_2" status="run" time="0" classname="DividerTest" />
+    <testcase name="9_DivideBy_3" status="run" time="0" classname="DividerTest" />
+    <testcase name="17_DivideBy_19" status="run" time="0" classname="DividerTest" />
+    <testcase name="Long_DivideBy_Long" status="run" time="0" classname="DividerTest" />
+    <testcase name="DivisionByZero" status="run" time="0.001" classname="DividerTest">
+      <failure message="D:\Download\gitlab\gitlabRunner\builds\4qPaxrvx6\0\dtangParasoft\cppstad\test\src\divider_tests.cpp:55&#x0A;Failed&#x0A;Expected divide() method to throw DivisionByZeroException" type=""><![CDATA[D:\Download\gitlab\gitlabRunner\builds\4qPaxrvx6\0\dtangParasoft\cppstad\test\src\divider_tests.cpp:55
+Failed
+Expected divide() method to throw DivisionByZeroException]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

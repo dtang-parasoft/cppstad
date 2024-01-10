@@ -1,0 +1,10 @@
+libdir=D:/Download/gitlab/gitlabRunner/builds/4qPaxrvx6/0/dtangParasoft/cppstad/lib
+includedir=D:/Download/gitlab/gitlabRunner/builds/4qPaxrvx6/0/dtangParasoft/cppstad/include
+
+Name: gmock_main
+Description: GoogleMock (with main() function)
+Version: 1.9.0
+URL: https://github.com/google/googletest
+Requires: gmock
+Libs: -L${libdir} -lgmock_main 
+Cflags: -I${includedir} -DGTEST_HAS_PTHREAD=0 

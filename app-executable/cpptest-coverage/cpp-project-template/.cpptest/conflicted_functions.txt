@@ -1,0 +1,12 @@
+testing::IsTrueMatcher::IsTrueMatcher()
+testing::IsEmptyMatcher::IsEmptyMatcher()
+testing::IsFalseMatcher::IsFalseMatcher()
+testing::IsTrue()
+testing::IsEmpty()
+testing::IsFalse()
+testing::CardinalityInterface::ConservativeUpperBound() const
+testing::internal::posix::IsDir(const _stat &)
+testing::internal::posix::FileNo(_iobuf *)
+testing::internal::TypedTestCasePState::AddTestName(const char *, int, const char *, const char *)
+testing::internal::linked_ptr_internal::join(const testing::internal::linked_ptr_internal*)
+testing::internal::linked_ptr_internal::depart()

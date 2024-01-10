@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+   <testsuite name="DividerTest"
+               tests="5"
+               id="1"
+               package=""
+               time="0"
+               hostname="CD-DTANG"
+               timestamp="2024-01-10T11:17:27"
+               failures="1"
+               errors="0">
+      <properties/>
+      <testcase name="5_DivideBy_2"
+                 classname="CICD_CppProjectTemplate.DividerTest"
+                 time="0"
+                 file="./test/src/divider_tests.cpp"/>
+      <testcase name="9_DivideBy_3"
+                 classname="CICD_CppProjectTemplate.DividerTest"
+                 time="0"
+                 file="./test/src/divider_tests.cpp"/>
+      <testcase name="17_DivideBy_19"
+                 classname="CICD_CppProjectTemplate.DividerTest"
+                 time="0"
+                 file="./test/src/divider_tests.cpp"/>
+      <testcase name="Long_DivideBy_Long"
+                 classname="CICD_CppProjectTemplate.DividerTest"
+                 time="0"
+                 file="./test/src/divider_tests.cpp"/>
+      <testcase name="DivisionByZero"
+                 classname="CICD_CppProjectTemplate.DividerTest"
+                 time="0"
+                 file="./test/src/divider_tests.cpp">
+         <failure type="Failure">divider_tests.cpp::DividerTest::DivisionByZero: 检测到 1 GoogleTest 断言失败 在测试用例 [DivisionByZero]中</failure>
+      </testcase>
+      <system-out/>
+      <system-err/>
+   </testsuite>
+</testsuites>

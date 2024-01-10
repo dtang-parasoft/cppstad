@@ -1,0 +1,19 @@
+xharness.parseFile true
+xharness.addCoverage true
+xharness.reconstruct true
+edgtk.keepDependencyGenerationOptions true
+xharness.useStatementCoverage true
+xharness.useDecisionCoverage false
+xharness.useBlockCoverage false
+xharness.useMcDcCoverage false
+xharness.useSimpleConditionCoverage false
+xharness.useFunctionCoverage false
+xharness.usePathCoverage false
+xharness.useCallCoverage false
+xharness.enableFastCoverage true
+xharness.enableFastCoverageAutoInit true
+xharness.addRuntimeAutoFinalization true
+xharness.coverageMapFile D:/Download/gitlab/gitlabRunner/builds/4qPaxrvx6/0/dtangParasoft/cppstad/app-executable/cpptest-coverage/cpp-project-template\.cpptest/cpptestcc\1704856638906_5720\0\gtest_main.cc.map
+xharness.routineManager "symbol_file=*" command=setProperty property=canAddCoverageIn value=off
+xharness.routineManager "symbol_file=D:/Download/gitlab/gitlabRunner/builds/4qPaxrvx6/0/dtangParasoft/cppstad/*" command=setProperty property=canAddCoverageIn value=on
+xharness.routineManager "symbol_file=D:/Download/gitlab/gitlabRunner/builds/4qPaxrvx6/0/dtangParasoft/cppstad/app-executable/*" command=setProperty property=canAddCoverageIn value=off
